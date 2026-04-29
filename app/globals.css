@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Global UX polish */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 84px; /* offset for sticky navbar */
+}
+
+::selection {
+  background: color-mix(in oklab, rgb(34 211 238) 30%, transparent);
+}
+
