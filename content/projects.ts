@@ -42,7 +42,7 @@ export const featuredProjects: Project[] = [
     links: {
       github: "",
       youtube: "",
-      live: ""
+      live: "https://fitness-eight-mocha.vercel.app/"
     }
   },
   {
