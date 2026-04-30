@@ -31,7 +31,7 @@ export const featuredProjects: Project[] = [
       "Created a deploy-ready MVP with sanitized seed data and a Vercel-based demo setup for fast public walkthroughs"
     ],
     links: {
-      github: "https://github.com/alex0huang/District-Cover-Underwriting-Copilot"
+      github: "https://github.com/cicidi/hackathon-district-cover"
     }
   },
 
@@ -48,7 +48,7 @@ export const featuredProjects: Project[] = [
       "Designed the system for future support of full degree planning, multi-school catalogs, professor data integration, and web-based course updates"
     ],
     links: {
-      github: "https://github.com/CSEN-SCU/csen-174-s26-team-project-course-planner/tree/main/prototypes/student-template",
+      github: "https://github.com/CSEN-SCU/csen-174-s26-team-project-course-planner/",
       youtube: "",
       live: ""
     }
