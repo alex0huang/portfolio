@@ -12,6 +12,25 @@ export type Project = {
 
 export const featuredProjects: Project[] = [
   {
+    title: "SCU Course Planner",
+    tech: ["Python", "Streamlit", "Gemini API", "RateMyProfessor API", "Multi-Agent"],
+    description:
+      "AI-powered course planning system for SCU students. Upload your Academic Progress export and get personalized next-quarter schedule recommendations with professor ratings and a weekly calendar view — no more switching between Workday, RateMyProfessor, and your transcript.",
+    bullets: [
+      "Built a multi-agent pipeline that parses SCU Academic Progress exports to identify requirement gaps and generate personalized schedules",
+      "Implemented a Gemini-powered planning agent that accepts natural language preferences and recommends courses based on remaining degree requirements",
+      "Integrated RateMyProfessor API with parallel thread execution to enrich recommendations with professor ratings, difficulty scores, and would-take-again percentages",
+      "Designed an interactive weekly calendar UI in Streamlit that maps course schedules from SCU Find Course Sections data",
+      "Architected modular agent structure with roadmap for PDF-based requirement parsing, orchestrator agent, and email automation with human-in-the-loop approval"
+    ],
+    links: {
+      github: "https://github.com/CSEN-SCU/csen-174-s26-team-project-course-planner/",
+      youtube: "https://www.youtube.com/watch?v=EqVv-q5eWN8",  
+      live: ""
+    }
+  },
+
+  {
     title: "Underwriting Copilot",
     tech: [
       "Next.js",
@@ -32,25 +51,6 @@ export const featuredProjects: Project[] = [
     ],
     links: {
       github: "https://github.com/cicidi/hackathon-district-cover"
-    }
-  },
-
-  {
-    title: "Course Planning AI Agent",
-    tech: ["Python", "LangChain", "RAG", "Vector Search", "OpenAI API", "FastAPI"],
-    description:
-      "AI-powered academic planning assistant designed to streamline the course planning workflow for SCU students. Instead of switching between degree progress pages, course search tabs, professor research pages, and manual schedule planning tools, students can ask the agent course-related questions and receive retrieved course information with prerequisite-aware guidance.",
-    bullets: [
-      "Built an AI-powered academic planning assistant to consolidate progress review, course lookup, prerequisite checks, and schedule planning into a single workflow",
-      "Implemented retrieval-augmented generation over PDF course documents using embeddings and vector search for accurate course information retrieval",
-      "Developed a prerequisite-checking tool integrated into a LangChain agent workflow to reason about course eligibility constraints",
-      "Used a zero-shot ReAct-style agent to automatically select between retrieval and prerequisite tools based on student questions",
-      "Designed the system for future support of full degree planning, multi-school catalogs, professor data integration, and web-based course updates"
-    ],
-    links: {
-      github: "https://github.com/CSEN-SCU/csen-174-s26-team-project-course-planner/",
-      youtube: "",
-      live: ""
     }
   },
 
