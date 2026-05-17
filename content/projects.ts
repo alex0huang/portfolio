@@ -12,6 +12,25 @@ export type Project = {
 
 export const featuredProjects: Project[] = [
   {
+    title: "SecReviewer",
+    tech: ["AdaL", "GitHub Actions", "React", "Vite", "FastAPI", "SQLite", "GitHub OAuth", "Bash"],
+    description:
+      "AI-powered security guard for every git push. Built on AdaL (SylphAI's coding agent), delivered as three layers: a pre-push git hook that blocks bad code locally, a GitHub Action for PR-time review, and a web dashboard that aggregates findings across all sources. Stops SQL injection, hardcoded secrets, and broken auth before code leaves the laptop.",
+    bullets: [
+      "Built an AI security review system on top of AdaL, delivered as three integrated layers: a pre-push git hook, a GitHub Action, and a unified web dashboard",
+      "Engineered a pre-push hook that pipes git diffs into AdaL headless mode and blocks pushes containing SQL injection, hardcoded secrets, broken auth, or unsafe deserialization before code reaches GitHub",
+      "Developed a React + Vite + Tailwind dashboard with FastAPI backend and GitHub OAuth that aggregates review history from three sources: PR comments, commit comments, and locally blocked pushes parsed from ~/.adal/sec-review.log",
+      "Designed a one-line installer (curl ... | bash) that verifies prerequisites, installs the AdaL CLI, triggers first-time login, and drops the pre-push hook into any git repository",
+      "Proposed the 'AdaL Expert Pack' framework — a reusable architecture for shipping vertical reviewers (security, performance, style) on top of a single AI agent engine with shared install and distribution patterns"
+    ],
+    links: {
+      github: "https://github.com/alex0huang/hackthonadal",
+      youtube: "https://www.youtube.com/watch?v=bIAE0fK4apg",
+      live: ""
+    }
+  },
+  
+  {
     title: "SCU Course Planner",
     tech: ["Python", "Streamlit", "Gemini API", "RateMyProfessor API", "Multi-Agent"],
     description:
