@@ -78,9 +78,9 @@ export function Hero() {
                 </dd>
               </div>
               <div>
-                <dt className="text-sm text-slate-500">Open to</dt>
+                <dt className="text-sm text-slate-500">Currently</dt>
                 <dd className="mt-1 text-sm font-medium text-brand-700">
-                  Software Engineering / AI / ML Internships
+                  SWE Intern @ Vigiles Robotics
                 </dd>
               </div>
             </dl>

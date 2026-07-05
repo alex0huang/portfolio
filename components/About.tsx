@@ -11,8 +11,9 @@ export function About() {
           reliable, scalable, and easy to use.
         </p>
         <p>
-          I’m currently looking for <span className="text-brand-700">Software Engineering / AI / ML internship</span>{" "}
-          opportunities where I can contribute to production-grade systems and keep learning fast.
+          I’m currently a <span className="text-brand-700">Software Engineering Intern at Vigiles Robotics</span>,
+          working on semantic mapping for an LLM-driven inspection robot, and I’m always open to new
+          Software Engineering / AI / ML opportunities.
         </p>
       </div>
     </Section>
